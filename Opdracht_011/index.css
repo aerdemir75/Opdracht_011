@@ -1,0 +1,79 @@
+
+div.parent {
+    display: grid;
+    gap: 15px;
+    grid-gap: 20px;
+    grid-template-columns: 550px 550px;
+    margin-left: 350px;
+    padding-top: 300px;
+    grid-template-rows: 1fr;
+    height: 300px;
+    grid-template-areas: 
+    "carla marijn";
+}
+
+div.carla {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    border: lightgrey 2px solid;
+    border-radius: 10px;
+    display: grid;
+    grid-area: carla;   
+    font-size: 35px;
+    font-weight: bolder;    
+}
+
+foto {
+    padding-top: 30px;
+    width: 50px;
+    height: 75px;
+}
+
+div.marijn {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    border: lightgrey 2px solid;
+    border-radius: 10px;
+    display: grid;
+    grid-area: marijn;   
+    font-size: 35px;
+    font-weight: bolder;  
+}
+
+p.approve {
+    text-align: center;
+    width: 200px;
+    border: lime 2px solid;
+    border-radius: 10px;
+    height: 50px;
+    color: lime;
+}
+
+p.decline {
+    text-align: center;
+    width: 200px;
+    border: red 2px solid;
+    border-radius: 10px;
+    height: 50px;
+    color: red;
+}
+div.blok1 {
+    display: flex;
+}
+
+p {
+    width: 300px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+p.light {
+    color: lightgrey;
+    font-size: 25px;
+}
+
+p.request {
+    padding-top: 10px;
+    font-size: 25px;
+    width: 300px;
+}
